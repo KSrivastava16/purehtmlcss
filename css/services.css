@@ -1,0 +1,142 @@
+/* Global Declartions */
+body{
+    font-family:'ABeeZee';
+    font-size:16px;
+    line-height: 1.5;
+    
+     margin:0;
+     padding:0;
+ }
+ ul{
+     margin:0px;
+     padding:0px;
+     }
+     
+ 
+ .container{
+     width:80%;
+     margin:auto;
+     overflow:hidden;
+  }
+ 
+ 
+ 
+ header{
+     background-color: #6c5b7b;
+     min-height: 70px;
+     padding-top:10px;
+     border-bottom:red 3px solid;
+    
+ }
+ 
+ header a{
+ text-decoration:none;
+ font-size:20px;
+ }
+ 
+ 
+ 
+ header li{
+     
+     display:inline;
+     float: left;
+     padding:0 20px 0px 20px;
+ }
+ 
+ header #branding{
+    float:left;
+    padding:0 10px 0 10px ;
+    margin: 0px;
+    
+    
+ 
+ 
+ }
+ header nav{
+ float:right;
+ margin-top:20px;
+ }
+ 
+ header #branding img{
+     width: 70px;
+     height: 70px;
+     
+     float:left;
+     margin-left:0px;
+     margin-top:30px;
+ }
+ header #branding #name,ul .current a{
+     color:orange;
+    
+ }
+ header a:hover{
+     color:#cccccc;
+     font-weight: bold;
+     }
+
+.main .price{
+    font-weight:bolder;
+    padding:2px;
+}
+.main article{ 
+    width:65%;
+    float:left;
+    border:2px solid;
+    border-radius:2px;
+    padding:20px;
+    margin-top:20px;
+
+}
+
+.main h1{
+margin-top:20px;
+margin-bottom:20px;
+}
+.main aside{
+    width:30%;
+    float:right;
+    margin-top:20px;
+   padding:5px;
+
+
+}`
+
+.main textarea,input[type="email"],input[type="password"]{
+    min-width: 200px;
+    min-height:20px ;
+}
+
+
+.navcolor{
+    background:#6c5b7b;
+    color:#ffffff;
+}
+
+.main button{
+    min-height:35px;
+    border:0px;
+    background-color:#e88a1a
+}
+
+footer{
+    margin-top:200px;
+    text-align:center;
+    padding:5px;
+    background:#e88a1a;
+    font-size:20px;
+}
+
+@media(max-width:768px){
+ 
+    header #branding ,nav,nav li,.main article,.main aside{
+        float:none;
+        width:100%;
+        border:0px;
+        text-align:center;
+        
+    }
+    footer{
+        font-size:15px;
+        padding:5px;
+    }
+}

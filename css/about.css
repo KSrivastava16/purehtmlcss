@@ -1,0 +1,141 @@
+/* Global Declartions */
+body{
+    font-family:'ABeeZee';
+    font-size:16px;
+    line-height: 1.5;
+    
+     margin:0;
+     padding:0;
+ }
+ ul{
+     margin:0px;
+     padding:0px;
+     }
+     
+ 
+ .container{
+     width:80%;
+     margin:auto;
+     overflow:hidden;
+  }
+ 
+ 
+ 
+ header{
+     background-color: #6c5b7b;
+     min-height: 70px;
+     padding-top:10px;
+     border-bottom:red 3px solid;
+    
+ }
+ 
+ header a{
+ text-decoration:none;
+ font-size:20px;
+ }
+ 
+ 
+ 
+ header li{
+     
+     display:inline;
+     float: left;
+     padding:0 20px 0px 20px;
+ }
+ 
+ header #branding{
+    float:left;
+    padding:0 10px 0 10px ;
+    margin: 0px;
+    
+    
+ 
+ 
+ }
+ header nav{
+ float:right;
+ margin-top:20px;
+ }
+ 
+ header #branding img{
+     width: 70px;
+     height: 70px;
+     
+     float:left;
+     margin-left:0px;
+     margin-top:30px;
+ }
+ header #branding #name,ul .current a{
+     color:orange;
+    
+ }
+ header a:hover{
+     color:#cccccc;
+     font-weight: bold;
+     }
+
+
+  
+   
+   #aboutme h1{
+       font-family:'Algerian';
+       padding:10px;
+       font-size:30px;
+   }
+
+
+
+
+   
+
+    #aboutme p .name,.planguages{
+        font-weight:bolder;
+        color:#6d3580;
+    }
+
+    #aboutme {
+        font-size:20px;  
+        float:left;
+        width:65%;
+        margin-top:10px;}
+
+       
+
+    #main aside{
+    float:right;
+    width:30%;
+    margin-top:30px
+    }
+
+.navcolor{
+    background:#6c5b7b;
+    color:#ffffff;
+}
+
+
+    /* footer */
+footer{
+    margin-top:310px;
+    text-align:center;
+    padding:5px;
+    background:#e88a1a;
+    font-size:20px;
+}
+aside h1{
+    text-decoration:underline;
+}
+
+@media(max-width:768px){
+ 
+    header #branding ,nav,nav li,#main article,#main aside{
+        float:none;
+        width:100%;
+        border:0px;
+        text-align:center;
+        
+    }
+    footer{
+        font-size:15px;
+        padding:5px;
+    }
+}
